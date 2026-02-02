@@ -18,11 +18,15 @@ An accessible, interactive comic website designed for kids who can't read yet. F
 
 ## Getting Started
 
-### 1. Add Your Comic Image
+### 1. Add Your Comic Panel Images
 
-Save your full comic page image as `images/comic.png`. The CSS will automatically crop and display each panel individually.
-
-The code expects a 2-column, 3-row layout with a title area at the top (like the Luna Tuna comic).
+Save your panel images in the `images/` folder:
+- `Luna1.png` - Luna Tuna at the barn
+- `Luna2.png` - Family drives away
+- `Luna3.png` - Luna talks to mice
+- `Luna4.png` - Nice man finds Luna
+- `Luna5.png` - Luna on the couch
+- `Luna6.png` - Luna's forever home
 
 ### 2. Host on GitHub Pages
 
@@ -128,7 +132,7 @@ LUNA/
 ├── js/
 │   └── script.js       # All functionality
 ├── images/
-│   └── comic.png       # Full comic page image
+│   └── Luna1-6.png     # Panel images
 └── README.md           # This file
 ```
 
